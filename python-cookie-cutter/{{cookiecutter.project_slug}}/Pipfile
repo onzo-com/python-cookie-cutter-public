@@ -1,0 +1,33 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-xdist = "*"
+pytest-cov = ">=2.5.1"
+pytest-html = ">=1.16.1"
+matplotlib = "*"
+seaborn = "*"
+ipykernel = "*"
+
+[packages]
+arrow = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+pyyaml = "==4.2b4"
+cassandra-driver = "*"
+python-json-logger = "*"
+psycopg2-binary = "*"
+psutil = "*"
+python-dateutil = "*"
+SQLAlchemy = "*"
+prometheus_client = "*"
+pipenv = "*"
+boto3 = "*"
+scipy = "*"
+
+[requires]
+python_version = "3.6"
