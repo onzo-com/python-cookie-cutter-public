@@ -1,0 +1,1 @@
+TRUNCATE @schema.test_table;
