@@ -1,2 +1,2 @@
-from {{cookiecutter.project_slug}}.analytics.{{cookiecutter.featurename}}.tests.postgresql_test_infrastructure import postgresqlTestCase, _schema
+from {{cookiecutter.project_slug}}.analytics.{{cookiecutter.feature_name}}.tests.postgresql_test_infrastructure import postgresqlTestCase, _schema
 
