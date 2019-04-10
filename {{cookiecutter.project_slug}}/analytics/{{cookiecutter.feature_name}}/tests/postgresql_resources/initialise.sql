@@ -25,8 +25,6 @@ CREATE TABLE @schema.test_table (
     test_value              float not null,
     created_at              timestamptz not null default current_timestamp,
     updated_at              timestamptz not null default current_timestamp,
-    readings                @schema.elec_reading[] not null,
-
 
     PRIMARY KEY (test_id_1, test_id_2, test_date)
 );
