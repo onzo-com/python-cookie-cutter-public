@@ -3,7 +3,7 @@ import os
 import unittest
 
 import pytest
-from {{cookiecutter.project_slug}}.analytics.{{cookiecutter.featurename}}.tests.postgresql_test_infrastructure import postgresqlTestCase
+from {{cookiecutter.project_slug}}.analytics.{{cookiecutter.feature_name}}.tests.postgresql_test_infrastructure import postgresqlTestCase
 
 
 class TestPG(unittest.TestCase):
