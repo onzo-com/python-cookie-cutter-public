@@ -1,6 +1,6 @@
 # Cookiecutter Analytics Project
 
-This repo is design for a data science team to clone using cookiecutter to create a new analytics project from scratch with everything they need to get started including IPython notebooks/ Jupyter Notebooks
+This repo is designed for a data science team to clone using cookiecutter to create a new analytics project from scratch with everything they need to get started including Pipenv, IPython notebooks/ Jupyter Notebooks and Postgres test infrastructure.
 
 
 ## Getting Started
