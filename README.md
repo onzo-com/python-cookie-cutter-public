@@ -30,6 +30,8 @@ create the name of the class feature (PEP8) e.g 'FeatureName' (will will be used
 ```
 You should now be able to open your new project in the IDE of your choice 
 
+# Once you have completed cookiecutter please read the README located in your new project for pre-requisites and local development
+
 
 ## Authors
 
