@@ -29,7 +29,7 @@ cookiecutter https://github.com/onzo-com/python-cookie-cutter-public.git
 
 create the name of your project directory e.g 'project_cookiecutter'
 create the name of the feature directory e.g. 'feature_name'
-create the name of the class feature (PEP8) e.g 'FeatureName' (will will be used to create the template feature class and unit tests) 
+create the name of the class feature (PEP8) e.g 'FeatureName' (will be used to create the template feature class and unit tests) 
 ```
 You should now be able to open your new project in the IDE of your choice 
 
