@@ -5,6 +5,7 @@ This repo is designed for a data science team to clone using cookiecutter to cre
 * IPython notebooks/ Jupyter Notebooks
 * Postgres test infrastructure.
 
+Relates to technical blog post: https://medium.com/onzo-tech/a-tool-all-python-developers-should-be-using-5d547bfb45b7
 
 ## Getting Started
 
