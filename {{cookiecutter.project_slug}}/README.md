@@ -9,25 +9,25 @@ These instructions will get you a copy of the application up and running on your
 
 ### Prerequisites
 
-```
-Python 3.6+
-Pipenv
-```
+- Python 3.8+
+- `pipenv`
 
 To set up dependencies
-```
+
+```shell
 pip install pipenv 
-pipenv install -d
+pipenv sync -dev
 pipenv run python setup.py install
 ```
+
 ### Running locally
 
 To set up {{cookiecutter.feature_name}} project
-```
+```shell
 ```
 
 To run the tests
-```
+```shell
 pipenv run pytest
 
 # run tests on different processes
@@ -46,14 +46,14 @@ Ensure you are not already running a pipenv virtual environment somewhere. Close
 
 Next, if you haven't, ensure ipykernel and the `[dev-packages]` packages have been added into your project, and activate your shell.
 
-```
-pipenv install --dev
+```shell
+pipenv sync --dev
 pipenv shell
 ```
 
 Now you're ready to setup an ipykernel for this virtual env, and launch the notebook:
 
-```
+```shell
 python -m ipykernel install --user --name=pipenv-{{cookiecutter.project_slug}}-notebook
 jupyter notebook "research-notebooks/{{cookiecutter.feature_name}} Notebook.ipynb"
 ```
@@ -88,4 +88,3 @@ You'll want to regenerate the notebook with the new Kernel, so `Kernel -> Restar
 
 
 ## Authors
-
