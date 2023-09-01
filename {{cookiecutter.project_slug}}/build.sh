@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 
 # This version relates to the build version of https://github.com/onzo-com/atlas-build-lib-script. It currently needs to
 # be updated manually, when changes are made to the above repository that are required in this project.
-scriptversion="2.0.29"
+scriptversion="2.0.31"
 
 ensure-present() {
   if [ -f "${1}" ]; then
