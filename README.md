@@ -14,16 +14,15 @@ These instructions will get you a copy of the application up and running on your
 
 ### Prerequisites
 
-```
-cookiecutter
-Python 3.6+
-Pipenv
-```
+- `cookiecutter`
+- Python 3.8+
+- `pipenv`
 
 ### Running locally
 
 To set up cookiecutter project
-```
+
+```shell
 brew install cookiecutter (see https://cookiecutter.readthedocs.io/en/latest/installation.html if you are not on MAC OS X)
 cd <path where you want the new project>
 cookiecutter https://github.com/onzo-com/python-cookie-cutter-public.git

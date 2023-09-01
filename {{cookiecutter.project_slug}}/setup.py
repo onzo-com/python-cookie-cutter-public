@@ -10,5 +10,4 @@ setup(
     packages=non_test_packages,
     long_description=open('README.md', encoding="utf-8").read(),
     dependency_links=[],
-
 )
